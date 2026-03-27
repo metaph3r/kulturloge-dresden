@@ -1,0 +1,31 @@
+#cloud-config
+autoinstall:
+  version: 1
+  source:
+    id: ubuntu-desktop-minimal
+  locale: de_DE.UTF-8
+  keyboard:
+    layout: de
+  timezone: Europe/Berlin
+  identity:
+    hostname: kulturloge-dd-notebook
+    username: kulturloge-dd
+    password: '$6$F/FsvYjDVVMFmVzg$DnL9AD0XoYf8mAyjCLVYzytV0V/RTK8d8x4jCxhq4/ndqXuX8n7cvL3WbEoIAxSnedERFtRc9yV5GNZl7PAFx0'
+  ssh:
+    install-server: false  
+  packages:
+    - cinnamon-desktop-environment
+  snaps:
+    - name: network-manager
+      channel: stable
+      classic: true
+    - name: libreoffice
+      channel: stable
+      classic: true
+    - name: firefox
+      channel: stable
+      classic: true
+  shutdown: reboot
+  storage:
+    layout:
+      name: direct
