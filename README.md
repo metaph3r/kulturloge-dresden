@@ -2,7 +2,11 @@
 
 ## Ubuntu Version
 
-[Ubuntu Cinnamon 25.10 "Questing Quokka"](https://ubuntucinnamon.org/)
+[Ubuntu Cinnamon 24.04.4 "Noble Numbat" LTS](https://ubuntucinnamon.org/)
+
+## Installationsanleitung
+
+
 
 ## Passwort-Hash erstellen
 

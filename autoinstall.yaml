@@ -11,16 +11,6 @@ autoinstall:
     password: $6$JVb3Fp79BtF3gxmu$C662E6dM35buuXshvpJGvyarkV9KdQOtQIQL614PQHwKHqpr0f/K2A0rqc9D4XURaJSW63.0.p1InWiTJzfHG/
   ssh:
     install-server: false  
-  snaps:
-    - name: network-manager
-      channel: stable
-      classic: true
-    - name: libreoffice
-      channel: stable
-      classic: true
-    - name: firefox
-      channel: stable
-      classic: true
   shutdown: reboot
   storage:
     layout:
