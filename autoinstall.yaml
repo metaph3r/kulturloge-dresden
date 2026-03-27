@@ -1,8 +1,6 @@
 #cloud-config
 autoinstall:
   version: 1
-  source:
-    id: ubuntucinnamon-desktop-minimal
   locale: de_DE.UTF-8
   keyboard:
     layout: de
@@ -10,7 +8,7 @@ autoinstall:
   identity:
     hostname: kulturloge-dd-notebook
     username: kulturloge-dd
-    password: '$6$F/FsvYjDVVMFmVzg$DnL9AD0XoYf8mAyjCLVYzytV0V/RTK8d8x4jCxhq4/ndqXuX8n7cvL3WbEoIAxSnedERFtRc9yV5GNZl7PAFx0'
+    password: $6$JVb3Fp79BtF3gxmu$C662E6dM35buuXshvpJGvyarkV9KdQOtQIQL614PQHwKHqpr0f/K2A0rqc9D4XURaJSW63.0.p1InWiTJzfHG/
   ssh:
     install-server: false  
   snaps:

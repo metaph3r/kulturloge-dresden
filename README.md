@@ -1,5 +1,9 @@
 # Autoinstall
 
+## Ubuntu Version
+
+[Ubuntu Cinnamon 25.10 "Questing Quokka"](https://ubuntucinnamon.org/)
+
 ## Passwort-Hash erstellen
 
 ```
