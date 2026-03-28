@@ -1,6 +1,8 @@
 #cloud-config
 autoinstall:
   version: 1
+  interactive-sections:
+    - network
   source:
     id: ubuntu-desktop-minimal
   locale: de_DE.UTF-8
