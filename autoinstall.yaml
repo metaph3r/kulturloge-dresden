@@ -18,4 +18,5 @@ autoinstall:
       name: direct
   snaps:
     - name: libreoffice
+  updates: all
   shutdown: reboot
