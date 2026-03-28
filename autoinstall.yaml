@@ -11,7 +11,6 @@ autoinstall:
     update: true
   identity:
     hostname: kulturloge-dd-notebook
-    realname: KulturLoge Dresden e.V.
     username: kulturloge-dd
     password: $6$JVb3Fp79BtF3gxmu$C662E6dM35buuXshvpJGvyarkV9KdQOtQIQL614PQHwKHqpr0f/K2A0rqc9D4XURaJSW63.0.p1InWiTJzfHG/
     groups:
