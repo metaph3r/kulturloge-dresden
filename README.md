@@ -46,5 +46,5 @@ rsync -a <mount punkt>/ <zielverzeichnis>
 5. ISO-Image mit Autoinstall-Konfiguration erstellen
 
 ```
-xorriso -as mkisofs -r -V "UBUNTU_KULTURLOGE" -o ../../ubuntu-24.04.4-kulturloge-autoinstall-desktop-amd64.iso -J -l -b boot/grub/i386-pc/eltorito.img -c boot.catalog -no-emul-boot -boot-load-size 4 -boot-info-table .
+xorriso -as mkisofs -r -V "UBUNTU_KULTURLOGE" -o ../../ubuntu-24.04.4-kulturloge-autoinstall-desktop-amd64.iso -J -l -b boot/grub/i386-pc/eltorito.img -c boot.catalog -no-emul-boot -boot-load-size 4 -boot-info-table <zielverzeichnis>
 ```
