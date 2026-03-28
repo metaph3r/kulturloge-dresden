@@ -7,6 +7,8 @@ autoinstall:
   keyboard:
     layout: de
   timezone: Europe/Berlin
+  refresh-installer:
+    update: true
   identity:
     hostname: kulturloge-dd-notebook
     username: kulturloge-dd
