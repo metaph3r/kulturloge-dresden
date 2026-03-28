@@ -1,6 +1,8 @@
 #cloud-config
 autoinstall:
   version: 1
+  source:
+    id: ubuntu-desktop-minimal
   locale: de_DE.UTF-8
   keyboard:
     layout: de
