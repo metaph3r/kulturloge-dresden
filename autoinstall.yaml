@@ -21,4 +21,6 @@ autoinstall:
   snaps:
     - name: libreoffice
   updates: all
+  late-commands:
+    - curtin in-target -- apt-get remove --autoremove -y gnome-initial-setup
   shutdown: reboot
