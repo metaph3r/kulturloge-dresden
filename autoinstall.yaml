@@ -22,6 +22,7 @@ autoinstall:
         gecos: Administrator
         groups: adm, cdrom, sudo, dip, plugdev, users, lpadmin
         passwd: $6$lCHB52HbwGLi0J.0$lJHiUC7HHJm.DTlvCu.dMOUZOmu81FAByE9nb3E0Mxum8JA8I5eOx0aSQE3TiDODrPjFxpIUK0Ul.dRENq5ls1
+        shell: /bin/bash
   ssh:
     install-server: false  
   storage:
