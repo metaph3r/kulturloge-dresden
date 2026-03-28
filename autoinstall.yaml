@@ -14,19 +14,6 @@ autoinstall:
     username: kulturloge-dd
     realname: KulturLoge Dresden e.V.
     password: $6$JVb3Fp79BtF3gxmu$C662E6dM35buuXshvpJGvyarkV9KdQOtQIQL614PQHwKHqpr0f/K2A0rqc9D4XURaJSW63.0.p1InWiTJzfHG/
-    groups:
-      override:
-        - cdrom
-        - dip
-        - plugdev
-        - users
-        - lpadmin
-  user-data:
-    users:
-      - name: admin
-        gecos: Administrator
-        groups: adm, cdrom, sudo, dip, plugdev, users, lpadmin
-        passwd: $6$lCHB52HbwGLi0J.0$lJHiUC7HHJm.DTlvCu.dMOUZOmu81FAByE9nb3E0Mxum8JA8I5eOx0aSQE3TiDODrPjFxpIUK0Ul.dRENq5ls1
   ssh:
     install-server: false  
   storage:
