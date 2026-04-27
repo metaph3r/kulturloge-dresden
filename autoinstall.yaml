@@ -30,6 +30,8 @@ autoinstall:
   storage:
     layout:
       name: lvm
+      sizing-policy: all
+      reset-partition: true
   snaps:
     - name: libreoffice
     - name: thunderbird
