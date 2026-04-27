@@ -1,7 +1,7 @@
 #!/bin/sh
 AUTOINSTALL_FILE=./autoinstall.yaml
 SOURCE_DIR=./ubuntu
-TARGET_ISO=./iso/ubuntu-24.04.4-kulturloge-autoinstall-desktop-amd64.iso
+TARGET_ISO=./iso/ubuntu-26.04-kulturloge-autoinstall-desktop-amd64.iso
 VOLUME_NAME=UBUNTU_KULTURLOGE
 
 # delete old image
