@@ -29,7 +29,7 @@ autoinstall:
     install-server: false
   storage:
     layout:
-      name: direct
+      name: lvm
   snaps:
     - name: libreoffice
     - name: thunderbird
