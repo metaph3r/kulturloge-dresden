@@ -1,4 +1,5 @@
-iso/
-mount/
-ubuntu/
-
+iso/**
+!iso/README.md
+mount/**
+!mount/README.md
+ubuntu/**
