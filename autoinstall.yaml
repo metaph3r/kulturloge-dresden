@@ -16,7 +16,6 @@ autoinstall:
     username: kulturloge-dd
     realname: KulturLoge Dresden e.V.
     password: $6$JVb3Fp79BtF3gxmu$C662E6dM35buuXshvpJGvyarkV9KdQOtQIQL614PQHwKHqpr0f/K2A0rqc9D4XURaJSW63.0.p1InWiTJzfHG/
-    groups: [cdrom, dip, plugdev, users, lpadmin]
   user-data:
     users:
       - name: admin
@@ -41,6 +40,8 @@ autoinstall:
   updates: all
   late-commands:
     - curtin in-target -- apt-get remove --autoremove -y gnome-initial-setup
+    - curtin in-target -- deluser kulturloge-dd adm
+    - curtin in-target -- deluser kulturloge-dd sudo
     - curtin in-target -- sudo -u kulturloge-dd -- dbus-run-session -- gsettings set org.gnome.shell favorite-apps "['firefox_firefox.desktop', 'thunderbird_thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice_writer.desktop', 'libreoffice_calc.desktop', 'libreoffice_impress.desktop']"
     - curtin in-target -- sudo passwd -d -e kulturloge-dd
   shutdown: reboot
